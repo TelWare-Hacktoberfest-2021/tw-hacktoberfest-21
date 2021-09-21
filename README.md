@@ -34,3 +34,5 @@ Navigate to your hacktoberfest repository and use the package manager `pip` to i
 ```bash
 pip install -r requirements.txt
 ```
+
+Run your webservice with `flask run`.
