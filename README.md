@@ -26,7 +26,7 @@ virtualenv env-hacktoberfest21
 Activate the virtual environment
 
 ```bash
-env-hacktoberfest21\\Scripts\\activate
+env-hacktoberfest21\Scripts\activate
 ```
 
 Navigate to your hacktoberfest repository and use the package manager `pip` to install dependencies.
