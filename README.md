@@ -18,6 +18,7 @@ pip install virtualenv
 ```
 
 Create a directory for you environments called `environments`.  Your directory structure should look like this.
+```
 hacktoberfest
 ├── tw-hacktoberfest-21
 │   ├── .gitignore
@@ -25,6 +26,7 @@ hacktoberfest
 │   ├── README.md
 │   └── requirements.txt
 └── environments
+```
 
 Create a virtual environment inside `environments` called `env-hacktoberfest21`.
 
