@@ -1,0 +1,8 @@
+html, body{
+  height: 100%;
+}
+body {
+  margin: 0px;
+  background: #ebc806;
+  text-align: center;
+}
