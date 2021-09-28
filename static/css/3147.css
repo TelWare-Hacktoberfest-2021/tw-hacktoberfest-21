@@ -8,9 +8,14 @@ body {
   text-align: center;
 }
 
-#myTable, #showData {
+table {
   color: #03A062;
   background-color: #0e0e0e;
   width: 1550px;
   margin: auto;
+}
+
+img {
+  width: 1550;
+  height: 969;
 }

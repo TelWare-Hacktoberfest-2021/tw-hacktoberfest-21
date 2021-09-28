@@ -1,21 +1,6 @@
 $(document).ready(function () {
   var myData = [{
-    "username": "3147@telware",
-    "user": "3147",
-    "territory": "Demo",
-    "domain": "telware",
-    "department": "Tech",
-    "uid": "3147@telware",
-    "login": "3147@telware",
-    "scope": "Super User",
-    "user_email": "nperalta@telware.com",
-    "displayName": "Nestor Peralta",
-    "access_token": "xyz",
-    "expires_in": 3600,
-    "token_type": "Bearer",
-    "refresh_token": "zyx",
-    "client_id": "chromecall",
-    "apiversion": "Version: 42.0.0-alpha.1328"
+
   }];
 
   function CreateTableFromJSON() {
