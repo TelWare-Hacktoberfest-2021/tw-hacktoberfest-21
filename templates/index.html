@@ -1,12 +1,18 @@
 <html>
   <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
     <script type="text/javascript">var contributors = {{contributors|tojson|safe}}</script>
+    <script type="text/javascript" src="../static/js/main.js"></script>
   </head>
   <body>
+    <div id="glitch">
+      >&nbsp;<div class="text"></div><span id="cursor">I</span>
+   </div>
   <article class="flow">
-    <h1>TelWare Hacktoberfest Team</h1>
-    <p>Below are the brave souls that decided to participate in this years Hacktoberfest event.</p>
     <div class="team">
       <ul class="auto-grid" role="list">
         {% for contributor in contributors %}
