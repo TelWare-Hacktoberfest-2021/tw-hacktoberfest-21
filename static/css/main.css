@@ -11,11 +11,11 @@ body {
 h1 {
   font-weight: 900;
   font-size: 2.7rem;
-  max-width: 20ch;
+  /* max-width: 20ch; */
 }
 
 p {
-  max-width: 60ch;
+  /* max-width: 60ch; */
 }
 
 a {
@@ -93,8 +93,8 @@ a {
 .profile::after {
   background: linear-gradient(
     45deg,
-    hsl(5 97% 63% / 0.7) 0,
-    hsl(5 97% 63% / 0) 100%
+    hsl(200 72% 55% / 0.7) 0,
+    hsl(200 72% 55% / 0) 100%
   );
   opacity: 0;
   transition: 300ms opacity linear;
@@ -167,4 +167,10 @@ a {
 .profile:focus img {
   filter: grayscale(0);
   transform: scale(1.05) rotate(1deg);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
