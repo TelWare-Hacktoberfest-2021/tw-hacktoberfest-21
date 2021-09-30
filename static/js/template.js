@@ -1,7 +1,5 @@
 $(document).ready(function () {
-  var myData = [{
-
-  }];
+  var myData = [];
 
   function CreateTableFromJSON() {
     var col = [];
