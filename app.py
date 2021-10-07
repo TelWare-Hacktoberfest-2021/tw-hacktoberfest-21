@@ -55,8 +55,8 @@ def __3101__():
     return response
 
 
-@app.route("/0000")
-def __0000__():
+@app.route("/3517")
+def __3517__():
     response = render_template('construction.html')
     return response
 
@@ -102,3 +102,12 @@ def __3528__():
     response = render_template('construction.html')
     return response
 
+@app.route("/3120")
+def __3120__():
+    response = render_template('construction.html')
+    return response
+
+@app.route("/3507")
+def __3507__():
+    response = render_template('construction.html')
+    return response
