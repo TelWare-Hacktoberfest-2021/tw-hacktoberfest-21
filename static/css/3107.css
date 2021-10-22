@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  background: #edc951;
+  text-align: center;
+}
+
+table {
+  color: #03A062;
+  background-color: #0e0e0e;
+  font-size: 16px;
+  font-weight: 400;
+  width: 1550px;
+  margin: auto;
+  text-rendering: optimizeLegibility;
+}
+
+tr:nth-child(odd) {
+  background: #2ab7ca;
+}
+
+tr:nth-child(even) {
+  background: #fe4a49;
+  color: #FFFFFF;
+}
+
+img {
+  width: 1550;
+  height: 969;
+}
+
+th {
+  color:#f37735;
+  font-size: 30px;
+  background-color: #38a6de;
+} 
