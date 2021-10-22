@@ -1,18 +1,45 @@
 html, body{
-  height: 100%;
+  background-image: url("https://i.ibb.co/tXjVDMp/FB-IMG-1598224374611.jpg");
+  background-color: #0083da;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+    height: 100%;
 }
 
 body {
   margin: 0px;
-  background: #0e0e0e;
   text-align: center;
 }
 
 table {
-  color: #03A062;
-  background-color: #0e0e0e;
+  background-color: #6cacff;
+  color: hsl(194, 91%, 54%);
+  border-color: steelblue;
   width: 1550px;
   margin: auto;
+  background: transparent;
+}
+
+th {
+  background-color: #4d073d;
+  color: hsl(0, 0%, 48%);
+  font-size: larger;
+  font-weight: bolder;
+  height: 30px;
+  text-transform: capitalize;
+  background: transparent;
+}
+
+tr:nth-child(odd) {
+  background: #fe4a49;
+  background: transparent;
+}
+
+tr:nth-child(even) {
+  background: #2ab7ca;
+  background: transparent;
 }
 
 img {
