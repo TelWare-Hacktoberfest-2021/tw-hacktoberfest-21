@@ -11,8 +11,20 @@ body {
 table {
   color: #03A062;
   background-color: #0e0e0e;
+  font-size: 16px;
+  font-weight: 400;
   width: 1550px;
   margin: auto;
+  text-rendering: optimizeLegibility;
+}
+
+tr:nth-child(odd) {
+  background: #404040;
+}
+
+tr:nth-child(even) {
+  background: #CCCCCC;
+  color: #FFFFFF;
 }
 
 img {
